@@ -15,6 +15,8 @@ yarn add -D probe-image-size-loader
 
 ## Usage
 
+Can also be used with [lqip-loader](https://github.com/zouhir/lqip-loader).
+
 **webpack.config.js**
 
 ```javascript
