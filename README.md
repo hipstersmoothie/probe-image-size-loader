@@ -4,7 +4,7 @@
       src="https://cdn.rawgit.com/webpack/media/e7485eb2/logo/icon.svg">
   </a>
   <h1>Probe-Image-Size Loader</h1>
-  <p>Uses <a href="https://github.com/nodeca/probe-image-size">probe-image-size</a> to insert the height and width into image imports.</p>
+  <p>Uses <a href="https://github.com/nodeca/probe-image-size">probe-image-size</a> to inject the height and width into image imports.</p>
 </div>
 
 ## Install
