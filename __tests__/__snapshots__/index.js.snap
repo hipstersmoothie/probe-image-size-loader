@@ -3,7 +3,7 @@
 exports[`probeImageSize - no loaders previous 1`] = `
 "
       module.exports = {
-        src:  __dirname + 'some/path/to/image.png',
+        src:  __webpack_public_path__ + 'some/path/to/image.png',
         height: 100,
         width: 200
       }
@@ -12,7 +12,7 @@ exports[`probeImageSize - no loaders previous 1`] = `
 
 exports[`probeImageSize - some loaders previous 1`] = `
 "module.exports = {
-      src: __dirname + 'some/path/to/image.png',
+      src: __webpack_public_path__ + 'some/path/to/image.png',
       lqip: 'path/to/lqip'
    , height: 100, width: 200 };"
 `;

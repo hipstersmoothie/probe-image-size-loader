@@ -5,7 +5,7 @@ import probeImageSize from '../src';
 
 test('probeImageSize - no loaders previous', () => {
   const buffer = Buffer.from(
-    `module.exports = __dirname + 'some/path/to/image.png';`
+    `module.exports = __webpack_public_path__ + 'some/path/to/image.png';`
   );
 
   jest.spyOn(fs, 'readFileSync').mockImplementationOnce(() => {});
@@ -20,7 +20,7 @@ test('probeImageSize - no loaders previous', () => {
 test('probeImageSize - some loaders previous', () => {
   const buffer = Buffer.from(
     `module.exports = {
-      src: __dirname + 'some/path/to/image.png',
+      src: __webpack_public_path__ + 'some/path/to/image.png',
       lqip: 'path/to/lqip'
     };`
   );
