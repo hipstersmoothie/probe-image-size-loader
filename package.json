@@ -20,6 +20,7 @@
     "babel-core": "7.0.0-bridge.0",
     "babel-jest": "^23.0.1",
     "eslint-plugin-jest": "^21.17.0",
+    "jest-junit": "^5.1.0",
     "prettier": "^1.13.5",
     "xo": "^0.21.1"
   },
@@ -41,5 +42,14 @@
     "env": [
       "jest"
     ]
+  },
+  "jest": {
+    "reporters": [
+      "default",
+      "jest-junit"
+    ]
+  },
+  "jest-junit": {
+    "output": "./coverage/junit/junit.xml"
   }
 }
