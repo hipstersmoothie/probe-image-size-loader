@@ -2,6 +2,13 @@
   "name": "probe-image-size-loader",
   "version": "1.0.3",
   "description": "Uses probe-image-size to inject the height and width into image imports.",
+  "keywords": [
+    "webpack",
+    "loader",
+    "image",
+    "image size",
+    "probe-image-size"
+  ],
   "main": "src/index.js",
   "scripts": {
     "test": "jest",
@@ -12,6 +19,14 @@
   },
   "author": {
     "name": "Andrew Lisowski",
+    "email": "lisowski54@gmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/hipstersmoothie/probe-image-size-loader"
+  },
+  "bugs": {
+    "url": "https://github.com/hipstersmoothie/probe-image-size-loader/issues",
     "email": "lisowski54@gmail.com"
   },
   "license": "MIT",
