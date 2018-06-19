@@ -1,6 +1,6 @@
 {
   "name": "probe-image-size-loader",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Uses probe-image-size to inject the height and width into image imports.",
   "main": "src/index.js",
   "scripts": {
@@ -70,6 +70,9 @@
     "majorLabel": "major",
     "minorLabel": "minor",
     "patchLabel": "patch",
-    "internalLabel": "internal"
+    "internalLabel": "internal",
+    "github": {
+      "host": "https://github.com"
+    }
   }
 }
