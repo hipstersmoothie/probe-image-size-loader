@@ -61,6 +61,14 @@ jobs:
       - run:
           name: Send CodeCov Results
           command: bash <(curl -s https://codecov.io/bash) -t $CODECOV_KEY
+  release:
+    <<: *defaults
+    steps:
+      - attach_workspace:
+          at: ~/probe-image-size-loader
+      - run:
+          name: Release
+          command: npm run release
 
 workflows:
   version: 2
@@ -82,3 +90,11 @@ workflows:
           filters:
             tags:
               only: /.*/
+      - release:
+          requires:
+              - lint
+              - test
+          filters:
+            branches:
+              only:
+                - master
