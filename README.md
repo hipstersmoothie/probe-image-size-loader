@@ -1,4 +1,7 @@
 [![CircleCI](https://img.shields.io/circleci/project/github/hipstersmoothie/probe-image-size-loader.svg?style=for-the-badge)](https://circleci.com/gh/hipstersmoothie/probe-image-size-loader)
+[![Codecov branch](https://img.shields.io/codecov/c/github/hipstersmoothie/probe-image-size-loader/master.svg?style=for-the-badge)](https://github.com/hipstersmoothie/probe-image-size-loader)
+[![npm](https://img.shields.io/npm/v/probe-image-size-loader.svg?style=for-the-badge)](https://www.npmjs.com/package/probe-image-size-loader)
+[![npm](https://img.shields.io/npm/dt/probe-image-size-loader.svg?style=for-the-badge)](https://www.npmjs.com/package/probe-image-size-loader)
 
 <div align="center">
   <a href="https://github.com/webpack/webpack">
