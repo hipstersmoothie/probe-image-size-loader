@@ -3,8 +3,9 @@ All notable changes to this project will be documented in this file.
 
 This project adheres to [Semantic Versioning](http://semver.org/).
 
-## 2018-06-19 - [1.0.3 - current version]
+## 2018-06-19 - [1.0.4 - current version]
 
+- 1.0.4 - ([742b011](https://github.com/hipstersmoothie/probe-image-size-loader/commit/742b0114a1625ff753d0694b3f4d0962a6361d6a)) - :pray-hands: (@hipstersmoothie)
 - 1.0.3 - ([f376a4e](https://github.com/hipstersmoothie/probe-image-size-loader/commit/f376a4ee9927b967c04636bd77eb48f33deef2a6)) - npm auth (@hipstersmoothie)
 - 1.0.2 - ([04f25ae](https://github.com/hipstersmoothie/probe-image-size-loader/commit/04f25aeae93a30c111c895d98a665d20ee482b56)) - regenerate lock file (@hipstersmoothie)
 - 1.0.12 - ([966447c](https://github.com/hipstersmoothie/probe-image-size-loader/commit/966447cf34f487f4eea14292eb52a60cc3d9448c)) - fixing auto release (@hipstersmoothie)
@@ -24,5 +25,6 @@ This project adheres to [Semantic Versioning](http://semver.org/).
 - 1.0.4 - ([ff42abd](https://github.com/hipstersmoothie/probe-image-size-loader/commit/ff42abd22fd557696a285b62dfcccbe8b9dfb6b4)) - update readme (@hipstersmoothie)
 - 1.0.3 - ([59b8350](https://github.com/hipstersmoothie/probe-image-size-loader/commit/59b835061c397729cfdf93c536a68a2cacd5e8bf)) - update author (@hipstersmoothie)
 - 1.0.2 - ([6a58258](https://github.com/hipstersmoothie/probe-image-size-loader/commit/6a582586a06c71d2a1cd1863e544ed9ed89c1086)) - initialize (@hipstersmoothie)
+
 
 
