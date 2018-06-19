@@ -48,6 +48,16 @@
     "reporters": [
       "default",
       "jest-junit"
+    ],
+    "collectCoverage": true,
+    "coverageDirectory": "./coverage",
+    "collectCoverageFrom": [
+      "src/**/*.js"
+    ],
+    "coverageReporters": [
+      "cobertura",
+      "html",
+      "lcov"
     ]
   },
   "jest-junit": {
