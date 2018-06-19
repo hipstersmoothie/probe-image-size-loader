@@ -69,6 +69,7 @@
   "gsv": {
     "majorLabel": "major",
     "minorLabel": "minor",
-    "patchLabel": "patch"
+    "patchLabel": "patch",
+    "internalLabel": "internal"
   }
 }
