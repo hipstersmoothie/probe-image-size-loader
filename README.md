@@ -1,3 +1,5 @@
+[![CircleCI](https://img.shields.io/circleci/project/github/hipstersmoothie/probe-image-size-loader.svg?style=for-the-badge)](https://circleci.com/gh/hipstersmoothie/probe-image-size-loader)
+
 <div align="center">
   <a href="https://github.com/webpack/webpack">
     <img width="200" height="200"
