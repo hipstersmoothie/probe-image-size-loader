@@ -72,9 +72,6 @@
     "patchLabel": "patch",
     "internalLabel": "internal",
     "releasedLabel": "Released",
-    "addReleasedLabelOnSuccess": true,
-    "github": {
-      "host": "https://github.com"
-    }
+    "addReleasedLabelOnSuccess": true
   }
 }
