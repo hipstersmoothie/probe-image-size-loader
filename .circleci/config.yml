@@ -67,6 +67,7 @@ jobs:
       - attach_workspace:
           at: ~/probe-image-size-loader
       - run: mkdir ~/.ssh && ssh-keyscan -t rsa github.com >> ~/.ssh/known_hosts
+      - run: echo "//registry.npmjs.com/:_authToken=$NPM_TOKEN" >> ~/.npmrc
       - run:
           name: Release
           command: npm run release
